@@ -798,6 +798,39 @@ static pj_status_t sdl_create_window(struct sdl_stream *strm,
     return PJ_SUCCESS;
 }
 
+#if PJMEDIA_VIDEO_DEV_SDL_RESIZE_RENDER
+static sdl_update_render(struct sdl_stream * strm)
+{
+
+	int16_t real = 0;
+	int16_t sc = 0;
+
+	if ((strm->param.disp_size.w <= strm->param.disp_size.h && strm->rect.w <= strm->rect.h) ||
+		(strm->param.disp_size.w > strm->param.disp_size.h && strm->rect.w < strm->rect.h))
+	{
+		real = (strm->rect.h * strm->param.disp_size.w) / (double)strm->param.disp_size.h;
+		sc = (real - strm->rect.w) / 2;
+		if ((int16_t)strm->param.disp_size.w - sc * 2 < 50)
+			return;
+		strm->dstrect.x = sc;
+		strm->dstrect.y = 0;
+		strm->dstrect.w = (Uint16)(strm->param.disp_size.w - sc * 2);
+		strm->dstrect.h = (Uint16)strm->param.disp_size.h;
+	}
+	else
+	{
+		real = (strm->rect.w * strm->param.disp_size.h) / (double)strm->param.disp_size.w;
+		sc = (real - strm->rect.h) / 2;
+		if ((int16_t)strm->param.disp_size.h - sc * 2 < 50)
+			return;
+		strm->dstrect.x = 0;
+		strm->dstrect.y = sc;
+		strm->dstrect.w = (Uint16)strm->param.disp_size.w;
+		strm->dstrect.h = (Uint16)(strm->param.disp_size.h - sc * 2);
+	}
+}
+#endif
+
 static pj_status_t sdl_create_rend(struct sdl_stream * strm,
                                    pjmedia_format *fmt)
 {
@@ -824,9 +857,13 @@ static pj_status_t sdl_create_rend(struct sdl_stream * strm,
         strm->param.disp_size.w = strm->rect.w;
     if (strm->param.disp_size.h == 0)
         strm->param.disp_size.h = strm->rect.h;
+#if PJMEDIA_VIDEO_DEV_SDL_RESIZE_RENDER
+	sdl_update_render(strm);
+#else
     strm->dstrect.x = strm->dstrect.y = 0;
     strm->dstrect.w = (Uint16)strm->param.disp_size.w;
     strm->dstrect.h = (Uint16)strm->param.disp_size.h;
+#endif /* PJMEDIA_VIDEO_DEV_SDL_RESIZE_RENDER */
 
     sdl_destroy(strm);
 
@@ -854,10 +891,14 @@ static pj_status_t resize_disp(struct sdl_stream *strm,
               sizeof(strm->param.disp_size));
     
     if (strm->scr_tex) {
+#if PJMEDIA_VIDEO_DEV_SDL_RESIZE_RENDER
+		sdl_update_render(strm);
+#else
         strm->dstrect.x = strm->dstrect.y = 0;
         strm->dstrect.w = (Uint16)strm->param.disp_size.w;
 	strm->dstrect.h = (Uint16)strm->param.disp_size.h;
 	SDL_RenderSetViewport(strm->renderer, &strm->dstrect);
+#endif /* PJMEDIA_VIDEO_DEV_SDL_RESIZE_RENDER */
     }
 #if PJMEDIA_VIDEO_DEV_SDL_HAS_OPENGL
     else if (strm->param.rend_id == OPENGL_DEV_IDX) {
