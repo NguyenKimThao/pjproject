@@ -361,7 +361,7 @@ static int clock_thread(void *arg)
 	if (now.u64 < clock->next_tick.u64) {
 	    unsigned msec;
 	    msec = pj_elapsed_msec(&now, &clock->next_tick);
-	    pj_thread_sleep(msec);
+	    pj_thread_sleep(msec < 5 ? msec : 5);
 	}
 
 	/* Skip if not running */
