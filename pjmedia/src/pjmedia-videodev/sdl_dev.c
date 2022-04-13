@@ -805,6 +805,11 @@ static sdl_update_render(struct sdl_stream * strm)
 	int16_t real = 0;
 	int16_t sc = 0;
 
+	strm->dstrect.x = 0;
+	strm->dstrect.y = sc;
+	strm->dstrect.w = (Uint16)strm->param.disp_size.w;
+	strm->dstrect.h = (Uint16)strm->param.disp_size.h;
+
 	if ((strm->param.disp_size.w <= strm->param.disp_size.h && strm->rect.w <= strm->rect.h) ||
 		(strm->param.disp_size.w > strm->param.disp_size.h && strm->rect.w < strm->rect.h))
 	{
