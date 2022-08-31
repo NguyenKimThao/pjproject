@@ -7,3 +7,4 @@ bin/
 build/
 config_site.h
 MicroSipFileSetup_*.zip
+UpgradeLog*.htm
