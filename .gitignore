@@ -1,0 +1,9 @@
+Debug/
+.vs/
+x64/
+Release/
+lib/
+bin/
+build/
+config_site.h
+MicroSipFileSetup_*.zip
