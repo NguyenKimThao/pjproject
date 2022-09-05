@@ -15,20 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0A66593EA4CF417A9BB4962FBC3DF7C2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_10F40A91CB7E4A37A72281C933F24C05"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1951A2A7BCC925CF76F1748D05BC5D4E"
         "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2D75529164F8459D9FCD74C5458CC94D"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -57,8 +51,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5E425B3CCE1840D8BBD3AE04DB869F16"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6133C6E5708DF704839888FA2C6AFE22"
         "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6546357B4AC141C98738F3C27BDD27FD"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -69,19 +75,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_66101DC9B29F4CD08E01A4281AE59253"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6D957119D8394BE3AE348E686CE53948"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_72E4C9EB46524774AE3FAEC6E9943862"
+        "MsmKey" = "8:_6E974D6BF41F4EEE9FCFE4A6539E4DBE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -129,12 +129,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AAEB5E4EA95B429198E137DC339634C4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_AC2BE6595888705D9805D4B0DA1B9CB0"
         "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
         "MsmSig" = "8:_UNDEFINED"
@@ -155,6 +149,12 @@
         {
         "MsmKey" = "8:_B5D536DAADFB8F265C609A84EE9BCBFD"
         "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B647621F66AE454584A1C4DDDE434AEC"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -214,7 +214,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AAEB5E4EA95B429198E137DC339634C4"
+        "OwnerKey" = "8:_B647621F66AE454584A1C4DDDE434AEC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -289,20 +289,6 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_7D14A2A1FE654C72AF152347F1265AC7"
-            {
-            "Name" = "8:CustomShemeMicrosip.exe"
-            "Condition" = "8:"
-            "Object" = "8:_10F40A91CB7E4A37A72281C933F24C05"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:/Install"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_34732561_28E6_4B85_9FFD_6974D284C9B8"
-            "InstallerClass" = "11:FALSE"
-            "CustomActionData" = "8:"
-            }
         }
         "DefaultFeature"
         {
@@ -336,46 +322,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0A66593EA4CF417A9BB4962FBC3DF7C2"
-            {
-            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.pdb"
-            "TargetName" = "8:CustomShemeMicrosip.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10F40A91CB7E4A37A72281C933F24C05"
-            {
-            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.exe"
-            "TargetName" = "8:CustomShemeMicrosip.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1951A2A7BCC925CF76F1748D05BC5D4E"
             {
             "SourcePath" = "8:SETUPAPI.dll"
@@ -394,6 +340,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2D75529164F8459D9FCD74C5458CC94D"
+            {
+            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.exe"
+            "TargetName" = "8:CustomShemeMicrosip.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2EC2FEC77A81C5DB321F0A3D88863291"
@@ -476,6 +442,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5E425B3CCE1840D8BBD3AE04DB869F16"
+            {
+            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.pdb"
+            "TargetName" = "8:CustomShemeMicrosip.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6133C6E5708DF704839888FA2C6AFE22"
             {
             "SourcePath" = "8:api-ms-win-crt-locale-l1-1-0.dll"
@@ -494,6 +480,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6546357B4AC141C98738F3C27BDD27FD"
+            {
+            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.runtimeconfig.json"
+            "TargetName" = "8:CustomShemeMicrosip.runtimeconfig.json"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_65678AEFD1C9DB84FD009157C9D70A08"
@@ -516,26 +522,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66101DC9B29F4CD08E01A4281AE59253"
-            {
-            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.deps.json"
-            "TargetName" = "8:CustomShemeMicrosip.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D957119D8394BE3AE348E686CE53948"
             {
             "SourcePath" = "8:C:\\Program Files\\dotnet\\host\\fxr\\6.0.8\\hostfxr.dll"
@@ -556,10 +542,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_72E4C9EB46524774AE3FAEC6E9943862"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6E974D6BF41F4EEE9FCFE4A6539E4DBE"
             {
-            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.runtimeconfig.json"
-            "TargetName" = "8:CustomShemeMicrosip.runtimeconfig.json"
+            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.deps.json"
+            "TargetName" = "8:CustomShemeMicrosip.deps.json"
             "Tag" = "8:"
             "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
             "Condition" = "8:"
@@ -716,37 +702,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AAEB5E4EA95B429198E137DC339634C4"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:CustomShemeMicrosip, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_AAEB5E4EA95B429198E137DC339634C4"
-                    {
-                    "Name" = "8:CustomShemeMicrosip.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AC2BE6595888705D9805D4B0DA1B9CB0"
             {
             "SourcePath" = "8:api-ms-win-crt-utility-l1-1-0.dll"
@@ -825,6 +780,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B647621F66AE454584A1C4DDDE434AEC"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:CustomShemeMicrosip, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B647621F66AE454584A1C4DDDE434AEC"
+                    {
+                    "Name" = "8:CustomShemeMicrosip.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\CustomShemeMicrosip\\bin\\Release\\net6.0-windows\\CustomShemeMicrosip.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BA3AB87E7E84E8A39C3122BB74521EF6"
