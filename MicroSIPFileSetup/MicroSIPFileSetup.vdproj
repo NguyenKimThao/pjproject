@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_476F757AB0258FE6BC97397038FA3FF9"
+        "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4FA52297538598F275559B8C6565450D"
         "OwnerKey" = "8:_CF5D6AD88A17471DB25BFC9FADD163CC"
         "MsmSig" = "8:_UNDEFINED"
@@ -386,6 +392,26 @@
             {
             "SourcePath" = "8:api-ms-win-crt-heap-l1-1-0.dll"
             "TargetName" = "8:api-ms-win-crt-heap-l1-1-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_476F757AB0258FE6BC97397038FA3FF9"
+            {
+            "SourcePath" = "8:VCRUNTIME140_1.dll"
+            "TargetName" = "8:VCRUNTIME140_1.dll"
             "Tag" = "8:"
             "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
             "Condition" = "8:"
@@ -1029,15 +1055,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:microsip"
-        "ProductCode" = "8:{987EAE86-BB3F-42B7-8AED-31496021F341}"
-        "PackageCode" = "8:{90F92416-D628-4BFF-A1C4-6B3D83265177}"
+        "ProductCode" = "8:{929A83A2-BDCD-4EDE-B34B-8AB403EBABFD}"
+        "PackageCode" = "8:{D6758ACF-3ABB-4DE5-A63B-35D4D00098CC}"
         "UpgradeCode" = "8:{4F0515DB-87F4-4993-B106-017E8C27BBB0}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:thaonk"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -1579,7 +1605,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CF5D6AD88A17471DB25BFC9FADD163CC"
             {
-            "SourcePath" = "8:..\\Release\\microsip.exe"
+            "SourcePath" = "8:..\\x64\\Release\\microsip.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FEB251134D4B40CFA0362CF5D6098349"
